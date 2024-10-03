@@ -1,0 +1,452 @@
+[
+  {
+    "id": "1a2b3c4d-1234-5678-9abc-1234567890ab",
+    "start_at": "2024-11-01T10:00:00Z",
+    "end_at": "2024-12-01T10:00:00Z",
+    "title": "Support Our Cause - English",
+    "description": "Support our cause with a donation today.",
+    "URL": "https://invalid-url.com/donation1",
+    "CTA": "Donate Now",
+    "severity": 1,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 50.0,
+      "exclude": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["beta"],
+          "operating_systems": ["linux"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["win", "macosx"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2b3c4d5e-2345-6789-abcd-2345678901cd",
+    "start_at": "2024-12-05T10:00:00Z",
+    "end_at": "2025-01-05T10:00:00Z",
+    "title": "Apportez Votre Soutien - Français Canadien",
+    "description": "Continuer à soutenir avec un don.",
+    "URL": "https://invalid-url.com/donation2",
+    "CTA": "Faire un Don",
+    "severity": 2,
+    "type": "donation_old",
+    "targeting": {
+      "percent_chance": 70.0,
+      "exclude": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["win"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["release"],
+          "operating_systems": ["macosx", "linux"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "3c4d5e6f-3456-789a-bcde-3456789012ef",
+    "start_at": "2024-10-15T10:00:00Z",
+    "end_at": "2024-11-15T10:00:00Z",
+    "title": "Support Our Cause - English",
+    "description": "Help us grow with your donation.",
+    "URL": "https://invalid-url.com/donation3",
+    "CTA": "Donate Now",
+    "severity": 3,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 20.0,
+      "exclude": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["beta"],
+          "operating_systems": ["macosx"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["win", "linux"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "4d5e6f70-4567-89ab-cdef-4567890123gh",
+    "start_at": "2024-10-20T10:00:00Z",
+    "end_at": "2024-12-20T10:00:00Z",
+    "title": "Apportez Votre Soutien - Français Canadien",
+    "description": "Votre don nous aide à grandir.",
+    "URL": "https://invalid-url.com/donation4",
+    "CTA": "Faire un Don",
+    "severity": 4,
+    "type": "donation_old",
+    "targeting": {
+      "percent_chance": 80.0,
+      "exclude": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["release"],
+          "operating_systems": ["linux"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["win", "macosx"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "5e6f7080-5678-90ab-cdef-5678901234ij",
+    "start_at": "2024-11-10T10:00:00Z",
+    "end_at": "2024-12-10T10:00:00Z",
+    "title": "Support Our Cause - English",
+    "description": "Continue supporting with a donation.",
+    "URL": "https://invalid-url.com/donation5",
+    "CTA": "Donate Today",
+    "severity": 2,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 60.0,
+      "exclude": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": [],
+          "operating_systems": ["linux"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["win", "macosx"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "6f708090-6789-01ab-def0-6789012345kl",
+    "start_at": "2024-12-15T10:00:00Z",
+    "end_at": "2025-01-15T10:00:00Z",
+    "title": "Apportez Votre Soutien - Français Canadien",
+    "description": "Aidez-nous à grandir avec vos dons.",
+    "URL": "https://invalid-url.com/donation6",
+    "CTA": "Donner Maintenant",
+    "severity": 3,
+    "type": "donation_old",
+    "targeting": {
+      "percent_chance": 30.0,
+      "exclude": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["beta"],
+          "operating_systems": ["win"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["macosx", "linux"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "708090a1-7890-12bc-ef01-7890123456mn",
+    "start_at": "2024-11-25T10:00:00Z",
+    "end_at": "2024-12-25T10:00:00Z",
+    "title": "Support Our Cause - English",
+    "description": "Your donation helps us improve.",
+    "URL": "https://invalid-url.com/donation7",
+    "CTA": "Contribute Now",
+    "severity": 5,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 40.0,
+      "exclude": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["release"],
+          "operating_systems": ["linux"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["win", "macosx"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "8090a1b2-8901-23cd-f012-8901234567op",
+    "start_at": "2024-12-30T10:00:00Z",
+    "end_at": "2025-01-30T10:00:00Z",
+    "title": "Apportez Votre Soutien - Français Canadien",
+    "description": "Vos dons nous permettent d'améliorer.",
+    "URL": "https://invalid-url.com/donation8",
+    "CTA": "Donner Aujourd'hui",
+    "severity": 1,
+    "type": "donation_old",
+    "targeting": {
+      "percent_chance": 20.0,
+      "exclude": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["release"],
+          "operating_systems": ["macosx"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["win", "linux"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "90a1b2c3-9012-34de-0123-9012345678qr",
+    "start_at": "2024-10-25T10:00:00Z",
+    "end_at": "2024-11-25T10:00:00Z",
+    "title": "Support Our Cause - English",
+    "description": "Your support helps us grow.",
+    "URL": "https://invalid-url.com/donation9",
+    "CTA": "Help Now",
+    "severity": 4,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 90.0,
+      "exclude": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["linux"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["release"],
+          "operating_systems": ["win", "macosx"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "a1b2c3d4-0123-45ef-1234-0123456789st",
+    "start_at": "2024-11-05T10:00:00Z",
+    "end_at": "2024-12-05T10:00:00Z",
+    "title": "Apportez Votre Soutien - Français Canadien",
+    "description": "Soutenez notre cause avec un don.",
+    "URL": "https://invalid-url.com/donation10",
+    "CTA": "Faire un Don",
+    "severity": 2,
+    "type": "donation_old",
+    "targeting": {
+      "percent_chance": 70.0,
+      "exclude": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["release"],
+          "operating_systems": ["win"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["macosx", "linux"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "b2c3d4e5-2345-6789-abc1-234567890def",
+    "start_at": "2024-11-01T12:00:00Z",
+    "end_at": "2024-12-15T12:00:00Z",
+    "title": "Support Our Cause - English",
+    "description": "Your donations make a difference.",
+    "URL": "https://invalid-url.com/donation11",
+    "CTA": "Contribute Today",
+    "severity": 5,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 60.0,
+      "exclude": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["beta"],
+          "operating_systems": ["macosx"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["win", "linux"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "c3d4e5f6-3456-789a-bcd2-345678901abc",
+    "start_at": "2024-12-10T14:00:00Z",
+    "end_at": "2025-01-10T14:00:00Z",
+    "title": "Apportez Votre Soutien - Français Canadien",
+    "description": "Soutenir avec un don aujourd'hui.",
+    "URL": "https://invalid-url.com/donation12",
+    "CTA": "Contribuer",
+    "severity": 3,
+    "type": "donation_old",
+    "targeting": {
+      "percent_chance": 80.0,
+      "exclude": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["linux"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["release"],
+          "operating_systems": ["win", "macosx"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "d4e5f607-4567-89ab-cde3-456789012bcd",
+    "start_at": "2024-11-20T08:00:00Z",
+    "end_at": "2024-12-20T08:00:00Z",
+    "title": "Support Our Cause - English",
+    "description": "Make a difference with your donation.",
+    "URL": "https://invalid-url.com/donation13",
+    "CTA": "Donate Now",
+    "severity": 4,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 30.0,
+      "exclude": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["beta"],
+          "operating_systems": ["macosx"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["win", "linux"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "e5f60718-5678-9abc-def4-567890123cde",
+    "start_at": "2024-12-01T10:00:00Z",
+    "end_at": "2025-01-01T10:00:00Z",
+    "title": "Apportez Votre Soutien - Français Canadien",
+    "description": "Aidez-nous à continuer avec vos dons.",
+    "URL": "https://invalid-url.com/donation14",
+    "CTA": "Soutenir Maintenant",
+    "severity": 2,
+    "type": "donation_old",
+    "targeting": {
+      "percent_chance": 20.0,
+      "exclude": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["release"],
+          "operating_systems": ["win"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["macosx", "linux"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "f6071829-6789-abcd-ef56-678901234def",
+    "start_at": "2024-11-05T10:00:00Z",
+    "end_at": "2024-12-05T10:00:00Z",
+    "title": "Support Our Cause - English",
+    "description": "Help us grow with your donation.",
+    "URL": "https://invalid-url.com/donation15",
+    "CTA": "Contribute Now",
+    "severity": 1,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 70.0,
+      "exclude": [
+        {
+          "locales": ["fr-CA"],
+          "versions": [],
+          "channels": ["daily"],
+          "operating_systems": ["linux"]
+        }
+      ],
+      "include": [
+        {
+          "locales": ["en-US"],
+          "versions": [],
+          "channels": ["release"],
+          "operating_systems": ["win", "macosx"]
+        }
+      ]
+    }
+  }
+]
