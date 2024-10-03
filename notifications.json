@@ -13,7 +13,7 @@
       "percent_chance": 50.0,
       "exclude": [
         {
-          "locales": ["fr-CA"],
+          "locales": ["en-US"],
           "versions": [],
           "channels": ["beta"],
           "operating_systems": ["linux"]
@@ -133,7 +133,7 @@
       "percent_chance": 60.0,
       "exclude": [
         {
-          "locales": ["fr-CA"],
+          "locales": ["en-US"],
           "versions": [],
           "channels": [],
           "operating_systems": ["linux"]
@@ -433,7 +433,7 @@
       "percent_chance": 70.0,
       "exclude": [
         {
-          "locales": ["fr-CA"],
+          "locales": ["en-US"],
           "versions": [],
           "channels": ["daily"],
           "operating_systems": ["linux"]
