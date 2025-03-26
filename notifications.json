@@ -45,7 +45,7 @@
     "id": "SMOKE TEST DONATION DE",
     "start_at": "2025-03-01T00:00:00Z",
     "end_at": "2025-05-01T00:00:00Z",
-    "title": "Prebaked Appeal ESR25",
+    "title": "SMOKE TEST DONATION DE",
     "description": "Wenn Sie von der Verwendung von Thunderbird profitieren, helfen Sie bitte, ihn zu unterstützen. Alle Arbeit, die wir tun, wird von weniger als 3% unserer Nutzer finanziert. Wir schaffen das nicht ohne Sie. ",
     "URL": "https://updates.thunderbird.net/%LOCALE%/thunderbird/appeal/?locale=%LOCALE%&version=%VERSION%&channel=%CHANNEL%&os=%OS%&buildid=%APPBUILDID%&ID=PREBAKED-ESR25",
     "CTA": "Klicke hier, um zu spenden",
