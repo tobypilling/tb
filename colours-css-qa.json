@@ -1,0 +1,116 @@
+[
+  {
+    "id": "TEST_MESSAGE_1",
+    "start_at": "2025-08-05T00:00:00Z",
+    "end_at": "2025-08-30T00:00:00Z",
+    "title": "Welcome Message Test",
+    "description": "Welcome to Thunderbird's new notification system! We'll use this space to share important updates, security alerts, and helpful tips to help you get the most out of Thunderbird.",
+    "URL": "https://support.mozilla.org/kb/notifications-thunderbird?utm_campaign=Test&utm_medium=desktop&utm_source=in_app&utm_content=en",
+    "CTA": "Learn more",
+    "severity": 1,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 100,
+      "include": [
+        {
+          "locales": ["en-US"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "TEST_DONATION_1",
+    "start_at": "2025-08-05T00:00:00Z",
+    "end_at": "2025-08-30T00:00:00Z",
+    "title": "Support Thunderbird Development",
+    "description": "If you benefit from using Thunderbird, please help support it. All the work we do is funded by less than 3% of our users. We can't do it without you.",
+    "URL": "https://updates.thunderbird.net/%LOCALE%/thunderbird/appeal/?locale=%LOCALE%&version=%VERSION%&channel=%CHANNEL%&os=%OS%&buildid=%APPBUILDID%&ID=TEST-DONATION",
+    "CTA": "Donate Now",
+    "severity": 1,
+    "type": "donation",
+    "targeting": {
+      "percent_chance": 100,
+      "include": [
+        {
+          "locales": ["en-US"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "TEST_SECURITY_1",
+    "start_at": "2025-08-05T00:00:00Z",
+    "end_at": "2025-08-30T00:00:00Z",
+    "title": "Security Update Available",
+    "description": "An important security update is available for Thunderbird. Please update to the latest version to ensure your email remains secure.",
+    "URL": "https://support.mozilla.org/kb/update-thunderbird-latest-version?utm_campaign=Security&utm_medium=desktop&utm_source=in_app",
+    "CTA": "Update Now",
+    "severity": 2,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100,
+      "include": [
+        {
+          "locales": ["en-US"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "TEST_BLOG_1",
+    "start_at": "2025-08-05T00:00:00Z",
+    "end_at": "2025-08-30T00:00:00Z",
+    "title": "New Features in Thunderbird",
+    "description": "Check out our latest blog post highlighting the new features and improvements in the latest version of Thunderbird.",
+    "URL": "https://blog.thunderbird.net/2025/08/new-features-thunderbird/?utm_campaign=Blog&utm_medium=desktop&utm_source=in_app",
+    "CTA": "Read More",
+    "severity": 1,
+    "type": "blog",
+    "targeting": {
+      "percent_chance": 100,
+      "include": [
+        {
+          "locales": ["en-US"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "TEST_MESSAGE_2",
+    "start_at": "2025-08-05T00:00:00Z",
+    "end_at": "2025-08-30T00:00:00Z",
+    "title": "Tips for Better Email Management",
+    "description": "Discover helpful tips and tricks to manage your email more efficiently with Thunderbird's powerful features.",
+    "URL": "https://support.mozilla.org/kb/thunderbird-tips?utm_campaign=Tips&utm_medium=desktop&utm_source=in_app",
+    "CTA": "Get Tips",
+    "severity": 1,
+    "type": "message",
+    "targeting": {
+      "percent_chance": 100,
+      "include": [
+        {
+          "locales": ["en-US"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "TEST_SECURITY_2",
+    "start_at": "2025-08-05T00:00:00Z",
+    "end_at": "2025-08-30T00:00:00Z",
+    "title": "Phishing Protection Reminder",
+    "description": "Stay safe from phishing attacks. Learn how Thunderbird's built-in security features help protect your email and personal information.",
+    "URL": "https://support.mozilla.org/kb/phishing-protection-thunderbird?utm_campaign=Security&utm_medium=desktop&utm_source=in_app",
+    "CTA": "Learn About Security",
+    "severity": 2,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100,
+      "include": [
+        {
+          "locales": ["en-US"]
+        }
+      ]
+    }
+  }
+]
