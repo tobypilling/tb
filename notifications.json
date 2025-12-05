@@ -10,7 +10,7 @@
     "targeting": {
       "percent_chance": 100.0,
       "include": [{}],
-      "exclude": [{}],
+      "exclude": [{}]
     }
   }
 ]
