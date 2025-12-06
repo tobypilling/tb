@@ -8,9 +8,7 @@
     "severity": 1,
     "type": "donation_tab",
     "targeting": {
-      "percent_chance": 100.0,
-      "include": [{}],
-      "exclude": [{}]
+      "percent_chance": 100.0
     }
   },
   {
@@ -22,9 +20,7 @@
     "severity": 1,
     "type": "donation_tab",
     "targeting": {
-      "percent_chance": 100.0,
-      "include": [{}],
-      "exclude": [{}]
+      "percent_chance": 100.0
     }
   },
   {
@@ -36,9 +32,7 @@
     "severity": 1,
     "type": "donation_tab",
     "targeting": {
-      "percent_chance": 100.0,
-      "include": [{}],
-      "exclude": [{}]
+      "percent_chance": 100.0
     }
   },
   {
@@ -50,9 +44,7 @@
     "severity": 1,
     "type": "donation_tab",
     "targeting": {
-      "percent_chance": 100.0,
-      "include": [{}],
-      "exclude": [{}]
+      "percent_chance": 100.0
     }
   },
   {
@@ -64,9 +56,7 @@
     "severity": 1,
     "type": "donation_tab",
     "targeting": {
-      "percent_chance": 100.0,
-      "include": [{}],
-      "exclude": [{}]
+      "percent_chance": 100.0
     }
   }
 ]
