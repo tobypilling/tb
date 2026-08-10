@@ -1,5 +1,25 @@
 [
   {
+    "id": "WildcardVersionTest-esr-en",
+    "start_at": "2026-08-01T00:00:00Z",
+    "end_at": "2026-10-31T00:00:00Z",
+    "title": "Upcoming Version Targeting Test",
+    "description": "This is a test notification to verify wildcard version targeting for Thunderbird releases.",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "Learn More",
+    "severity": 1,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "versions": ["14*"],
+          "locales": ["en-CA", "en-GB", "en-US"]
+        }
+      ]
+    }
+  },
+  {
     "id": "AOLYahooOauth-esr-en",
     "start_at": "2026-03-01T00:00:00Z",
     "end_at": "2026-04-30T00:00:00Z",
