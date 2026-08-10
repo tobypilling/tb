@@ -1,10 +1,10 @@
 [
-  {
-    "id": "WildcardVersionTest-esr-en",
+    {
+    "id": "WildcardVersionTest-esr-en1",
     "start_at": "2026-08-01T00:00:00Z",
     "end_at": "2026-10-31T00:00:00Z",
-    "title": "Upcoming Version Targeting Test",
-    "description": "This is a test notification to verify wildcard version targeting for Thunderbird releases.",
+    "title": "Upcoming Version Targeting Test 1",
+    "description": "This is a test notification to verify wildcard version targeting for Thunderbird releases. [1]",
     "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
     "CTA": "Learn More",
     "severity": 1,
@@ -14,6 +14,26 @@
       "include": [
         {
           "versions": ["14*"],
+          "locales": ["en-CA", "en-GB", "en-US"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "WildcardVersionTest-esr-en2",
+    "start_at": "2026-08-01T00:00:00Z",
+    "end_at": "2026-10-31T00:00:00Z",
+    "title": "Upcoming Version Targeting Test 2",
+    "description": "This is a test notification to verify wildcard version targeting for Thunderbird releases. [2]",
+    "URL": "https://support.mozilla.org/kb/thunderbird-and-yahoo",
+    "CTA": "Learn More",
+    "severity": 2,
+    "type": "security",
+    "targeting": {
+      "percent_chance": 100.0,
+      "include": [
+        {
+          "versions": ["15*"],
           "locales": ["en-CA", "en-GB", "en-US"]
         }
       ]
